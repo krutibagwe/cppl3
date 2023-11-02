@@ -1,5 +1,4 @@
-facto(0,Result):- 
-    Result is 1.
+facto(0,1).
 facto(N,Result):-
     N>0,
     N1 is N-1,
