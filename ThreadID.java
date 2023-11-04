@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Thid extends Thread{
+class ThreadID extends Thread{
     public void run(){
         System.out.println("ID of the thread is: "+ Thread.currentThread().getId());
     }
