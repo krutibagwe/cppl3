@@ -3,4 +3,9 @@ multThree x y z= x*y*z
 
 main = do
     putStrLn"Hello World!"
-    print(multThree 2 6 3)
+    putStrLn "Enter three numbers: "
+    a<- readLn
+    b<- readLn
+    c<- readLn
+    putStrLn "Multiplication: "
+    print(multThree a b c)
