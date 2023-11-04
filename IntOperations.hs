@@ -27,9 +27,16 @@ main=do
     b1 <- getLine
     let b=read(b1)
 
+    putStrLn "Addition of two numbers is: "
     print(add1 a b)
+    putStrLn "Subtraction of two numbers: "
     print(sub1 a b)
+    putStrLn "Multiplication of two numbers: "
     print(mult1 a b)
+    putStrLn "Division of two numbers: "
     print(div1 15 4)
+    putStrLntwo numbers "Exponent  of : "
     print(expo1 a b)
+    putStrLn "Remainder of two numbers: "
     print(rem1 a b)
+  
