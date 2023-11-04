@@ -3,4 +3,9 @@ applyTwice f1 f2 x= f1(f2 x)
 
 main=do
     putStrLn "Hello World!"
-    print(applyTwice(*10)(+5)8)
+    putStrLn "Enter three numbers: "
+    a<- readLn
+    b<- readLn
+    c<- readLn
+    putStrLn "Result: "
+    print(applyTwice(*a)(+b)c)
