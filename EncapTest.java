@@ -23,7 +23,7 @@ public class EncapTest{
     
     public static void main(String[]args){
         EncapTest e1= new EncapTest();
-        e1.setName("Kruti");
+        e1.setName("XYZ");
         System.out.println("Name: "+ e1.getName());
         e1.setAge(19);
         System.out.println("Age: "+ e1.getAge());
