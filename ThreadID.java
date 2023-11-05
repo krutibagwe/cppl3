@@ -10,7 +10,7 @@ public static void main(String[]args){
     int n= scanner.nextInt();
     
     for(int i=0; i<n; i++){
-        Thid t1= new Thid();
+        ThreadID t1= new ThreadID();
         t1.start();
         }
     }
